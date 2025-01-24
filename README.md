@@ -49,7 +49,7 @@ To run the project locally, follow these steps:
    ```
 2. Run the followign Commnads:
    ```
-   uvicorn main:frontend --reload
+   uvicorn main:frontend --reload --port 8081
    streamlit run frontend/streamlit_app.py
    ```
 3. Access the app through the browser at http://localhost:8501
